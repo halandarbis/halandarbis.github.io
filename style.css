@@ -1,0 +1,95 @@
+/* Fonti */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+
+
+body {
+    font-family: 'Outfit', sans-serif !important;
+    scroll-behavior: smooth;
+    
+}
+
+.mogra {
+    font-family: "Mogra", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .custom-font {
+     font-family: 'Mogra', sans-serif;
+  }
+
+
+  .outfit {
+    font-family: "Outfit", sans-serif !important; 
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+.bg-custom {
+    background-color: #565264;
+}
+
+
+.section-dark {
+    background-color: #000000;
+}
+
+
+.section-purple {
+    background-color: #6b6678;
+}
+
+ 
+
+.about-image img {
+    max-width: 800px;  
+    width: 100%;
+     height: auto;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+    height: auto;  
+    word-wrap: break-word;
+}
+
+
+/* Melnais kvadratins */
+.icon-box {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+
+
+
+#myCarousel img {
+    height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.footer-section {
+    background-color: #dcdcdc;
+}
+
+
+
+.footer-title {
+    font-size: 28px;
+    color: #565264;
+    font-weight: 600;
+}
